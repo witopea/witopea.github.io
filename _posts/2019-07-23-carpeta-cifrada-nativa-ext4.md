@@ -14,6 +14,7 @@ Es muy sencilla. Al parecer es una buena opción ya que la herramienta gnugpg es
 Para cifrar con gpg-zip se hace así:
 
 `$ gpg-zip -c -o carpeta_cifrada.gpg ./carpeta`
+
 Así obtengo un archivo `carpeta_cifrada.gpg` que empaqueta la carpeta completamente cifrada.
 
 Para desencriptar la carpeta usamos el comando siguiente:
