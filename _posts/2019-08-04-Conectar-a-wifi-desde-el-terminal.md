@@ -9,7 +9,7 @@ Necesitarás sólo un móvil. Yo lo he hecho con mi móvil Android usando la opc
 
 Empecemos.
 
-![](2019-08-04-Conectar-a-wifi-desde-el-terminal.jpg)
+![](../images/2019-08-04-Conectar-a-wifi-desde-el-terminal.jpg)
 
 Estamos en un terminal validado con el usuario root.
 
