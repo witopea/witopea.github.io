@@ -8,9 +8,6 @@ Muchas veces me he visto en la necesidad de conectarme a internet sin entorno gr
 Necesitarás sólo un móvil. Yo lo he hecho con mi móvil Android usando la opción Tethering desde el menú de configuración.
 
 Empecemos.
-
-![](2019-08-04-Conectar-a-wifi-desde-el-terminal.jpg)
-
 Estamos en un terminal validado con el usuario root.
 
 1. Conectamos el móvil por USB al ordenador.
