@@ -18,5 +18,7 @@ Para desencriptar la carpeta usamos el comando siguiente:
 `$ gpg-zip -d carpeta_cifrada.gpg`
 
 [Fuente](http://www.taringa.net/posts/linux/18019134/Como-encriptar-carpetas-en-Linux-con-GPG.html)
+
 ___
-También te puede interesar: [Carpeta Cifrada nativa Ext4](https://witopea.github.io/Conectar-a-wifi-desde-el-terminal/)
+
+También te puede interesar: [Carpeta Cifrada nativa Ext4](https://witopea.github.io/carpeta-cifrada-nativa-ext4/)

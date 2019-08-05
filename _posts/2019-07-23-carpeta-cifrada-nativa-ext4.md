@@ -35,5 +35,7 @@ Después del `$ e4crypt add_key` esa key queda activa durante toda la sesión y 
 Ahora estoy viendo como desactivar esa key para que la carpeta aparezca nuevamente cifrada sin tener que cerrar la sesión.
 
 Gracias a `@hambaglio` y `@YukiteruAmano` del grupo de Telegram [Debian_es](https://tgram.io/es/group/502/Debian_es) y a la [wiki de Arch](https://wiki.archlinux.org/index.php/Ext4#Using_file-based_encryption)
+
 ___
+
 También te puede interesar: [Carpeta Cifrada nativa Ext4](https://witopea.github.io/cifrar-con-gpg-zip/)
