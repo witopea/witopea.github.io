@@ -19,6 +19,6 @@ Estamos en un terminal validado con el usuario root.
 4. Si la tarjeta de red no está activa, la activamos con `# ip link set enp0s20u3 up`
 5. Y finalmente hacemos un `# dhclient enp0s20u3` para que nos asigne una ip y ya estaremos conectados a internet.
 
-Ojo, te recomiendo que compruebes que el móvil está conectado a tu Wifi por que si está conectado a la red móvil puedes gastar tu tarifa de datos.
+Ojo, te recomiendo que compruebes que el móvil está conectado a tu Wifi porque si está conectado a la red móvil puedes gastar tu tarifa de datos.
 
 Espero que te sea útil.
