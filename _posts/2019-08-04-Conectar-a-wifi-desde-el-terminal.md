@@ -3,6 +3,7 @@ layout: post
 title:  Conectar a wifi desde el terminal
 date:   2019-08-04 21:33:14 -0300
 categories: Debian
+thumbnail: ../images/2019-08-04-Conectar-a-wifi-desde-el-terminal.jpg
 ---
 Muchas veces me he visto en la necesidad de conectarme a internet sin entorno gráfico por ejemplo tras  una instalación con el netinstall de Debian ya que uso Openbox y no instalo ningún entorno de escritorio. Os comento esta forma que me parece muy sencilla.
 Necesitarás sólo un móvil. Yo lo he hecho con mi móvil Android usando la opción Tethering desde el menú de configuración.
