@@ -38,4 +38,4 @@ Gracias a `@hambaglio` y `@YukiteruAmano` del grupo de Telegram [Debian_es](http
 
 ___
 
-También te puede interesar: [Carpeta Cifrada nativa Ext4](https://witopea.github.io/cifrar-con-gpg-zip/)
+También te puede interesar: [Cifrar con gpg-zip](https://witopea.github.io/cifrar-con-gpg-zip/)
