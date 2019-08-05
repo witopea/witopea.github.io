@@ -4,37 +4,10 @@ title:  Carpeta Cifrada nativa Ext4
 date:   2019-07-23 15:32:14 -0300
 categories: Cifrado Debian
 ---
-## gpg-zip
 
-Hasta el momento he usado la
-herramienta **gpg-zip** del paquete (gnupg-utils) para cifrar
-una carpeta y todo su contenido.
-Es muy sencilla. Al parecer es una buena opción ya que la herramienta gnugpg es muy resistente a los ataques.
+El sistema de archivos Ext4 implementa la encriptación de forma nativa dato que desconocía.
 
-Para cifrar con gpg-zip se hace así:
-
-`$ gpg-zip -c -o carpeta_cifrada.gpg ./carpeta`
-
-Así obtengo un archivo `carpeta_cifrada.gpg` que empaqueta la carpeta completamente cifrada.
-
-Para desencriptar la carpeta usamos el comando siguiente:
-
-`$ gpg-zip -d carpeta_cifrada.gpg`
-
-[Fuente](http://www.taringa.net/posts/linux/18019134/Como-encriptar-carpetas-en-Linux-con-GPG.html)
-
-## Cifrado nativo Ext 4
-
-Quería investigar otras opciones
-y comento aquí una interesante que
-desconocía.
-
-El sistema de archivos Ext4 
-implementa de forma nativa
-la encriptación.
-
-Para usar esta característica de
-momento he seguido los siguientes pasos:
+Para usar esta característica de momento he seguido los siguientes pasos:
 
 1. He creado un archivo de 20 Megas
 `# dd if=/dev/zero of=unidad bs=1M count=20`
@@ -61,4 +34,6 @@ momento he seguido los siguientes pasos:
 Después del `$ e4crypt add_key` esa key queda activa durante toda la sesión y puedes consultar el contenido de la carpeta descifrada.
 Ahora estoy viendo como desactivar esa key para que la carpeta aparezca nuevamente cifrada sin tener que cerrar la sesión.
 
-Gracias a `@hambaglio` y `@YukiteruAmano` del grupo de Telegram *Debian_es* y a la [wiki de Arch](https://wiki.archlinux.org/index.php/Ext4#Using_file-based_encryption)
+Gracias a `@hambaglio` y `@YukiteruAmano` del grupo de Telegram [Debian_es](https://tgram.io/es/group/502/Debian_es) y a la [wiki de Arch](https://wiki.archlinux.org/index.php/Ext4#Using_file-based_encryption)
+___
+También te puede interesar: [Carpeta Cifrada nativa Ext4](https://witopea.github.io/cifrar-con-gpg-zip/)
