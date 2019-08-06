@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  rsync desde ordenador a móvil
+title:  rsync desde ordenador a móvil o viceversa 
 date:   2019-08-06 15:33:14 -0300
 categories: Debian
 ---
