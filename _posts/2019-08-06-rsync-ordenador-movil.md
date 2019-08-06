@@ -21,4 +21,4 @@ la contraseña que previamente has puesto en la aplicación del móvil y empezar
 Verdaderamente genial.
 
 ---
-Este tip está real como lo redacté para mi. Lo modificaré para que sea más general. 
+Este tip está tal como lo redacté para mi. Lo modificaré para que sea más general. 
