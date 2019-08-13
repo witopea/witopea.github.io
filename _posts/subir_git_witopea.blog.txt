@@ -1,8 +1,0 @@
-cd ../
-#Fuente: https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
-
-git add .
-git commit -a -m "12JULIO"
-git push
-
-#git status

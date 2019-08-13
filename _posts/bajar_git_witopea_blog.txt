@@ -1,0 +1,5 @@
+#!/bin/bash
+output=./witopea.github.io_`date +%y%m%d%H%M%S`/
+[[ -d ./witopea.github.io ]] && mv ./witopea.github.io/ $output
+
+git clone https://github.com/witopea/witopea.github.io.git

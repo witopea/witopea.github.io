@@ -1,0 +1,8 @@
+cd ..
+#Fuente: https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
+notify-send "Subiendo a gitHub " "Estamos subiendo a gitHub su proyecto." -i /usr/share/ies/dock/icons/info_blue.svg -t 10000
+git add .
+git commit -a -m `date +%y%m%d%H%M%S`
+git push
+
+#git status
