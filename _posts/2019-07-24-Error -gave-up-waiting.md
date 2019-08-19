@@ -11,7 +11,7 @@ Tras investigar [aquí](http://forums.debian.net/viewtopic.php?f=5&t=138796) di 
 
 Me fui al directorio: `/etc/initramfs-tools/conf.d/` allí encontré el archivo resume y dentro del mismo
 `RESUME=UUID=a5a798bb-dea4-4638-915a-8f51a549f79e` que hacía referencia al UUID de mi partición swap pero era incorrecto.
-Al instalar Debian y usar la misma partición Swap que en otras instalaciones del equipo, este UUID se pierde irremediablente.
+Al instalar Debian y usar la misma partición Swap que en otras instalaciones del equipo, este UUID se pierde irremediablemente.
 
 Cambié en ese archivo el UUID por el de mi partición swap. Para ello puedes abrir la aplicación gráfica gparted y mirar
 la información de la partición swap donde vienen la UUID o buscarla en la salida del comando `# blkid`
