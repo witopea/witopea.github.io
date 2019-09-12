@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Eliminar entorno gráfico y aplicaciones gráficas
+title:  Eliminar entorno gráfico y aplicaciones gráficas de un plumazo
 date:   2019-09-13 01:42:14 -0300
 categories: Debian
 ---
