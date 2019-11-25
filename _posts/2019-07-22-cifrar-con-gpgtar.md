@@ -9,13 +9,13 @@ Para cifrar una carpeta y todo su contenido uso la herramienta **gpgtar** del pa
 
 Para cifrar con gpgtar se hace así:
 
-`$ gpgtar -c -o carpeta_cifrada.gpg ./carpeta`
+`$ gpgtar -co carpeta_cifrada.gpg ./carpeta/`
 
 Así obtengo un archivo `carpeta_cifrada.gpg` que empaqueta la carpeta completamente cifrada.
 
 Para desencriptar la carpeta usamos el comando siguiente:
 
-`$ gpgtar -dC ./ carpeta_cifrada.gpg`
+`$ gpgtar -d carpeta_cifrada.gpg`
 
 Siempre he usado gpg-zip pero en Debian 10 me salta un mensaje de advertencia indicando que es mejor usar gpgtar.
 
