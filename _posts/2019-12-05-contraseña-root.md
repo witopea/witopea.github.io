@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  regex (mis tips)
+title:  Recuperar/Bloquear/Desbloquear root
 date:   2019-12-05 00:42:16 -0300
-categories: Recuperar/Bloquear/Desbloquear root
+categories: Debian
 ---
 Tengo que aprender a recuperar la contraseña root de una instalación Debian y cómo bloquear/desbloquear al usuario root, para ello revisaré los siguentes post:
 
