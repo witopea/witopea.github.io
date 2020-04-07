@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Bajar imagenes de una web
-date:   2019-04-07 23:12:40
+date:   2020-04-07 23:12:40
 categories: Debian
 ---
 Es una forma muy sencilla de bajar todas las imagenes de una URL. Consiste en un script de python.
