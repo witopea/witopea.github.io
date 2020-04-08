@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bajar imagenes de una web
+title:  Rebajar peso a un PDF
 date:   2020-04-06 22:12:40
 categories: Debian
 ---
