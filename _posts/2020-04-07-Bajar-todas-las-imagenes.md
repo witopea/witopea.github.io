@@ -8,7 +8,9 @@ Es una forma muy sencilla de bajar todas las imagenes de una URL. Consiste en un
 
 - Para instalarlo:
 > Primero instalo todas las dependencias que necesita, vi en esta [página](https://gist.github.com/SRJ9/5cd7c52da9fffebfccfa7efd0d34fcef) que son estas:
+
 > `# apt install python3 python-dev python3-dev build-essential libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev python-pip`
+
 > `$ pip install ImageScraper`
 - Para usarlo:
 > `image-scraper url`
