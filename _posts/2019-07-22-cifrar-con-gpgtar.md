@@ -24,6 +24,7 @@ Tras instalar Debian 10.3 o 10.4 me daba un mensaje de error algo así como:
 Mirando [aquí](https://github.com/keybase/keybase-issues/issues/2798) logré solucionarlo con: `export GPG_TTY=$(tty)`. Además me gusta más que antes porque la contraseña te la pide en la propia consola, antes me la pedía en una ventana gráfica y no me gustaba ese salto de la consola a una ventana gráfica.
 
 [Fuente](http://www.taringa.net/posts/linux/18019134/Como-encriptar-carpetas-en-Linux-con-GPG.html)
+
 ___
 
 También te puede interesar: [Carpeta Cifrada nativa Ext4](https://witopea.github.io/carpeta-cifrada-nativa-ext4/)
