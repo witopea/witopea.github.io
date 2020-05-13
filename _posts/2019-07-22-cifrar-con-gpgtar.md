@@ -18,7 +18,9 @@ Para desencriptar la carpeta usamos el comando siguiente:
 `$ gpgtar -d carpeta_cifrada.gpg`
 
 Siempre he usado gpg-zip pero en Debian 10 me salta un mensaje de advertencia indicando que es mejor usar gpgtar.
-
+Tras instalar Debian 10.3 o 10.4 me daba un mensaje de error algo así como:
+>`gpg: signing failed: Inappropriate ioctl for device`
+Mirando [aquí](https://github.com/keybase/keybase-issues/issues/2798) logré solucionarlo con: `export GPG_TTY=$(tty)`. Además me gusta más que antes porque la contraseña te la pide en la propia consola, antes me la pedía en una ventana gráfica y no me gustaba ese salto de la consola a una ventana gráfica.
 [Fuente](http://www.taringa.net/posts/linux/18019134/Como-encriptar-carpetas-en-Linux-con-GPG.html)
 
 ___
