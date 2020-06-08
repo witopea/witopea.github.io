@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tips ffmpeg
+title:  Gtk-WARNING - Abrir aplicaciones GUI como root
 date:   2020-06-07 18:12:40
 categories: Debian
 ---
