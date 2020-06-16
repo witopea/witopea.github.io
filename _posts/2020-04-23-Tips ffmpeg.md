@@ -14,10 +14,15 @@ Iré añadiendo recetas de ffmpeg que voy necesitando para que no se me olviden.
 `ffmpeg -i input.mp4 -vcodec copy -an output.mp4`
 
 ## 3 Añadir audio a un vídeo (sin re-codificar)
-`ffmpeg -i video_original.mp4 -i audio.mp4 -c copy video_con_audio.mp4`
+`ffmpeg -i input.mp4 -i audio.mp4 -c copy output.mp4`
 > Normalmente el vídeo original no tiene audio porque se lo hemos quitado con el tip anterior.
 
-## 4 Girar vídeo
+
+## Unir vídeos
+`cat input1.mp4 input2.mp4 input3.mp4 > output.mp4`
+> Sencillísimo comando. Con fmpeg también se puede pero lo veo más complicado.
+
+## 5 Girar vídeo
 FFMpeg has a feature called “Transpose” that is used to rotate videos. Using this feature, we can easily rotate videos clockwise and counter-clockwise as well as flip them vertically and horizontally.
 
 For example, the following command will rotate the given video by 90 degrees clockwise:
@@ -26,7 +31,7 @@ For example, the following command will rotate the given video by 90 degrees clo
 
 [::Fuente::](https://www.ostechnix.com/how-to-rotate-videos-using-ffmpeg-from-commandline/)
 
-## 5 Subir sonido
+## 6 Subir sonido
 Así he subido el volumen de un vídeo:
 
 `ffmpeg -i input.mkv -vcodec copy -af "volume=1.5" output.mkv`
