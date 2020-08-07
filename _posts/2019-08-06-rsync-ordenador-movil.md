@@ -4,7 +4,7 @@ title:  rsync desde ordenador a móvil o viceversa
 date:   2019-08-06 15:33:14 -0300
 categories: Debian
 ---
-![](/images/pinguinos.jpg) { width=50% }
+![](/images/pinguinos.jpg)
 rsync es fantástico. Una utilidad que le doy es para sincronizar carpetas de mi ordenador a mi móvil sin ningún intermediario por medio. Te explico como lo hago.
 
 ## ¿Qué necesitamos?
