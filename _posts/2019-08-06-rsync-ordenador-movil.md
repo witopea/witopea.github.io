@@ -18,7 +18,7 @@ Inicia SSHelper en el móvil y comprueba desde la aplicación cual es la ip del 
 
 Ahora desde el ordenador que está conectado a la misma red Wifi ejecutas en el terminal los comandos de rsync que quieras para pasar archivos y carpetas de un lugar a otro.
 
-Te pedirá la contraseña que previamente has puesto en la aplicación del móvil o (admin sin no la has cambiado) y empezará a realizar la sincronización.
+Te pedirá la contraseña que previamente has puesto en la aplicación del móvil o (admin sino lo has cambiado) y empezará a realizar la sincronización.
 
 ## Ejemplo1 : Pasar fotos del móvil al ordenador y eliminarlas del móvil.
 
