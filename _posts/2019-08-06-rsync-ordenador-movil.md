@@ -29,11 +29,12 @@ Te pedirá la contraseña que previamente has puesto en la aplicación del móvi
 `rsync --delete-after -rlgoe "ssh -p2222" /home/usuario/MarkDown/ root@192.168.1.15:/sdcard/MarkDown`
 
 Para ver todas las opciones de rsync, `man rsync`, o visita [esta página](https://linux.die.net/man/1/rsync)
--r (recursive)
--l ()
--g (group)
--o (owner)
--e (specify the remote shell to use)
+- -r (recursive)
+- -l ()
+- -g (group)
+- -o (owner)
+- -e (specify the remote shell to use)
+
 **Nota:** Puedes usar la opción `--delete-after` para eliminar en el destino todo lo que no esté en origen.
 
 ## Mi comentario.
