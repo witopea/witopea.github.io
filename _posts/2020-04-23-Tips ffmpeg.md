@@ -51,7 +51,7 @@ Después hacemos esto `ffmpeg -i input.mp4 -vn -acodec copy output.m4a`
 
 [::Fuente::](https://iaroki.github.io/blog/convert-m4a-to-ogg-with-ffmpeg/)
 
-## 8 Convertir a mp3
+## 9 Convertir a mp3
 
 `ffmpeg -i input.mp4 -codec:a libmp3lame -aq 4 -vn -ac 2 -map_metadata 0 output.mp3`
 
