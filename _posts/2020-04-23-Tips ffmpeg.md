@@ -35,3 +35,23 @@ For example, the following command will rotate the given video by 90 degrees clo
 Así he subido el volumen de un vídeo:
 
 `ffmpeg -i input.mkv -vcodec copy -af "volume=1.5" output.mkv`
+
+## 7 Extraer audio (sin recodificar)
+Primero podemos ver las características del audio contenido en nuestro vídeo.
+
+`ffprobe input.mp4`
+
+Después hacemos esto `ffmpeg -i input.mp4 -vn -acodec copy output.m4a`
+
+[::Fuente::](https://www.linuxuprising.com/2019/11/ffmpeg-extract-audio-from-video-in.html)
+
+## 8 Convertir a ogg
+
+`ffmpeg -i input.mp4 -acodec libvorbis -aq 4 -vn -ac 2 -map_metadata 0 output.ogg`
+
+[::Fuente::](https://iaroki.github.io/blog/convert-m4a-to-ogg-with-ffmpeg/)
+
+## 8 Convertir a mp3
+
+`ffmpeg -i input.mp4 -codec:a libmp3lame -aq 4 -vn -ac 2 -map_metadata 0 output.mp3`
+
