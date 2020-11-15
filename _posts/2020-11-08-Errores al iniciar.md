@@ -6,7 +6,7 @@ categories: Debian
 ---
 A veces cuando hacemos una instalación en Debian o similares, nos aparecen mensajes de error al iniciar. Tras investigar el posible error, muchas veces concluimos que el error es irrelevante pero no conseguimos hacerlo desaparecer (ACPI Error, o similares...)
 
-[Aquí]() dan una solución para que deje de aparecer.
+[Aquí](https://exdebian.org/foro/netbook-samsung-n150-error-acpi-durante-el-inicio) dan una solución para que deje de aparecer.
 
 `nano /etc/default/grub`
 
