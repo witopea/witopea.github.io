@@ -8,7 +8,7 @@ A veces cuando hacemos una instalación en Debian o similares, nos aparecen mens
 
 [Aquí](https://exdebian.org/foro/netbook-samsung-n150-error-acpi-durante-el-inicio) dan una solución para que deje de aparecer.
 
-`nano /etc/default/grub`
+`# nano /etc/default/grub`
 
 Añadimos **loglevel=3**, queda algo como esto:
 
