@@ -1,0 +1,24 @@
+---
+layout: post
+title:  Tearing, franjas horizontales
+date:   2020-11-22 10:10:32
+categories: Debian, PDF
+---
+Tras instalar Debian 11 (testing) en un portátil con gráfica Intel se notaban unas franjas horizontales cuando estás visualizando vídeos por internet llamadas *tearing*.
+
+He logrado quitarlas gracias a las instrucciones que he leído [::aquí::](https://www.sololinux.es/que-es-el-screen-tearing-y-como-solucionarlo/)
+
+
+`nano /etc/X11/xorg.conf.d/20-intel.conf`
+
+Y añadimos esto:
+
+<code>
+Section "Device"
+    Identifier "Intel Graphics"
+    Driver "intel"
+    Option "TearFree" "true"
+EndSection
+</code>
+
+Reiniciamos y listo.
