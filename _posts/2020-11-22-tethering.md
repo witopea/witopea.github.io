@@ -13,12 +13,12 @@ He logrado quitarlas gracias a las instrucciones que he leído [::aquí::](https
 
 Y añadimos esto:
 
-<code>
+```
 Section "Device"
     Identifier "Intel Graphics"
     Driver "intel"
     Option "TearFree" "true"
 EndSection
-</code>
+```
 
 Reiniciamos y listo.
