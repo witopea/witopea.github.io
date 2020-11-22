@@ -13,7 +13,7 @@ He logrado quitarlas gracias a las instrucciones que he leído [::aquí::](https
 
 Y añadimos esto:
 
-```
+``
 
 Section "Device"
     Identifier "Intel Graphics"
@@ -21,6 +21,6 @@ Section "Device"
     Option "TearFree" "true"
 EndSection
 
-```
+``
 
 Reiniciamos y listo.
