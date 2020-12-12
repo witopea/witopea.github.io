@@ -14,4 +14,4 @@ Añadimos **loglevel=3**, queda algo como esto:
 
 `GRUB_CMDLINE_LINUX_DEFAULT="quiet loglevel=3"`
 
-Y adiós error, al menos a mí me ha funcionado :).
+Después un `update-grub` y adiós a los molestos errores, al menos a mí me ha funcionado :).

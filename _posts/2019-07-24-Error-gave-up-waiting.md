@@ -16,6 +16,6 @@ Al instalar Debian y usar la misma partición Swap que en otras instalaciones de
 Cambié en ese archivo el UUID por el de mi partición swap. Para ello puedes abrir la aplicación gráfica gparted y mirar
 la información de la partición swap donde vienen la UUID o buscarla en la salida del comando `# blkid`
 
-Después de eso hice un `# update-initramfs -u`.
+Después de eso hice un `# update-initramfs -u`
 
 Tambien tienes que cambiar el UUID en el archivo `/etc/fstab` y solucionado.
