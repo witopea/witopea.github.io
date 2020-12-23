@@ -9,6 +9,7 @@ No me gusta mucho snap, de hecho lo he evitado a lo largo del tiempo, pero hoy m
 Lo primero es instalar snap en tu Debian:
 
 `# apt install snapd`
+
 `# snap install core`
 
 Después instalamos la aplicación desde snap:
