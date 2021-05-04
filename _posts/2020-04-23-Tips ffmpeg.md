@@ -57,4 +57,5 @@ Después hacemos esto `ffmpeg -i input.mp4 -vn -acodec copy output.m4a`
 
 ## 10 Imagen + audio
 `ffmpeg -i imagen_input.jpg -i audio_input.m4a -tune stillimage -c:a copy output.mp4`
+
 [::Fuente::](https://superuser.com/questions/1041816/combine-one-image-one-audio-file-to-make-one-video-using-ffmpeg)
